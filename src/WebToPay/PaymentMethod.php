@@ -43,6 +43,21 @@ class WebToPay_PaymentMethod {
     protected $baseCurrency;
 
     /**
+     * @var integer
+     */
+    protected $minAmount;
+    
+    /**
+     * @var integer
+     */
+    protected $maxAmount;
+
+    /**
+     * @var string
+     */
+    protected $currency;
+
+    /**
      * Constructs object
      *
      * @param string  $key
